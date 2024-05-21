@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            position: relative;
+        }
+        h1 {
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #555555;
+            margin-bottom: 25px;
+        }
+        .photos-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin-bottom: 20px;
+        }
+        .photo-container {
+            overflow: hidden;
+            border: 3px solid #ff6347;
+            border-radius: 15px;
+            position: relative;
+        }
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .balloons {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px; /* Added margin to separate from heading */
+        }
+
+        .balloon {
+            width: 60px;
+            height: auto;
+            position: relative;
+            z-index: 1; /* Ensure balloons appear above other content */
+        }
+
+        .container {
+            position: relative;
+            /* Other styles remain unchanged */
+        }
+
+.container {
+    position: relative;
+    /* Other styles remain unchanged */
+}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="balloons">
+            <img class="balloon" src="heart-balloon.png" alt="Balloon">
+            <img class="balloon" src="birthday-cake.png" alt="Balloon">
+            <img class="balloon" src="heart-balloon.png" alt="Balloon">
+        </div>
+        <h1>Happy Birthday, দোতো!</h1>
+        <p>Wishing you a day filled with love and joy! From: ~উৎস </p>
+        <div class="photos-grid">
+            <div class="photo-container">
+                <img src="IMG_20231225_152856-01-01.jpeg" alt="Birthday Photo 1">
+            </div>
+            <div class="photo-container">
+                <img src="IMG-20240322-WA0027.jpg" alt="Birthday Photo 2">
+            </div>
+            <div class="photo-container">
+                <img src="screennailcache0.1308962.jpg" alt="Birthday Photo 3">
+            </div>
+            <div class="photo-container">
+                <img src="Screenshot_2024-01-21-10-11-50-75.jpg" alt="Birthday Photo 4">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
